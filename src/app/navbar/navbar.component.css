@@ -50,21 +50,3 @@
   .sticky + section {
     padding-top: 120px;
   }
-  /* END OF NAVBAR */
-  
-  /* JB SECTION */
-  #JB {
-    padding-top: 0;
-    min-height: 0;
-    height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-  }
-  
-  #JB a {
-    color: var(--jwhite);
-    animation: fadeIn 8s ease;
-  }
-  

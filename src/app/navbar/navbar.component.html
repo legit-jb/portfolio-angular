@@ -1,19 +1,39 @@
-<div class="navbar row" id="myNav">
+  <div [class]="navbarClass" id="myNav">
     <div class="navRow">
       <a
-        href="javascript:void(0);"
+        href=#
         class="icon ignore"
-        onclick="collapseNav()"
+        (click)="collapseNav()"
         >=</a
       >
       <a href="#JB" class="ignore" id="logo">JB</a>
       <div class="ignore" id="spacer"></div>
     </div>
-    <a href="#about" onclick="clickedLink()">about</a>
-    <a href="#projects" onclick="clickedLink()">projects</a>
+    <a href="#about" (click)="clickedLink()">about</a>
+    <a href="#projects" (click)="clickedLink()">projects</a>
     <a href="./assets/pdf/JBResume.pdf">resume</a>
-    <a href="mailto:J_BrennanDEV@protonmail.com" onclick="clickedLink()">contact</a>
+    <a href="mailto:J_BrennanDEV@protonmail.com" (click)="clickedLink()">contact</a>
     <a href="https://www.linkedin.com/in/j-brennan-dev"
       ><i class="fab fa-linkedin"></i
     ></a>
   </div>
+
+  <!-- <div [class]="navbarClass" id="myNav">
+    <div class="navRow">
+      <a
+        href="javascript:void(0);"
+        class="icon ignore"
+        (click)="collapseNav()"
+        >=</a
+      >
+      <a href="#JB" class="ignore" id="logo">JB</a>
+      <div class="ignore" id="spacer"></div>
+    </div>
+    <a href="#about" (click)="clickedLink()">about</a>
+    <a href="#projects" (click)="clickedLink()">projects</a>
+    <a href="./assets/pdf/JBResume.pdf">resume</a>
+    <a href="mailto:J_BrennanDEV@protonmail.com" (click)="clickedLink()">contact</a>
+    <a href="https://www.linkedin.com/in/j-brennan-dev"
+      ><i class="fab fa-linkedin"></i
+    ></a>
+  </div> -->
