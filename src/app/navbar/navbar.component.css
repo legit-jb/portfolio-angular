@@ -1,0 +1,70 @@
+/* NAVBAR */
+#myNav {
+    animation: fadeIn 8s ease 1s backwards;
+  }
+  
+  .navbar {
+    height: 60px;
+    justify-content: space-evenly;
+    background-color: var(--jblack);
+    overflow: hidden;
+  }
+  
+  .navRow {
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar a {
+    color: var(--jgray);
+  }
+  
+  .navbar a:active {
+    color: white;
+  }
+  
+  .navbar .icon {
+    padding-left: 1%;
+    width: 20px;
+    overflow: hidden;
+    display: none;
+  }
+  
+  #logo {
+    width: 20px;
+  }
+  
+  #spacer {
+    padding-right: 1%;
+    width: 20px;
+    overflow: hidden;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + section {
+    padding-top: 120px;
+  }
+  /* END OF NAVBAR */
+  
+  /* JB SECTION */
+  #JB {
+    padding-top: 0;
+    min-height: 0;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  
+  #JB a {
+    color: var(--jwhite);
+    animation: fadeIn 8s ease;
+  }
+  
