@@ -90,35 +90,7 @@
     font-size: x-large;
   }
   /* END OF GENERAL SECTION */
-  
-  /* ABOUT SECTION */
-  #about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  
-  #about .card {
-    width: 360px;
-    height: 300px;
-  }
-  
-  #my-image {
-    border-radius: 10px;
-  }
-  
-  #about-blurb {
-    /* margin-top: 5%; */
-    max-width: 360px;
-  }
-  
-  .subrow {
-    display: flex;
-    justify-content: space-around;
-    flex-grow: 1;
-  }
-  /* END OF ABOUT SECTION */
-  
+
   /* Resume */
   #resume {
     border: none;
